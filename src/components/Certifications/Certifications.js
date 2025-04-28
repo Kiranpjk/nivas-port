@@ -22,24 +22,14 @@ function Certifications() {
             <CertificationsCard
               imgPath={PHP}
               isBlog={false}
-              title="Building Web Applications in PHP"
-              description="Offered by the University of Michigan via Coursera, this certification demonstrates proficiency in building dynamic web applications using PHP. Covered topics include forms, sessions, MySQL integration, and security practices."
+              title="Pythhon for Beginners"
+              description="Offered by SkillUP, this certification demonstrates proficiency in building dynamic web applications using python. Covered topics include forms, sessions, MySQL integration, and security practices."
               certLink="/Certifications/PHP.png"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <CertificationsCard
-              imgPath={SQL}
-              isBlog={false}
-              title="SQL for Data Science"
-              description="Completed on Coursera through the University of California, this course covered SQL basics, JOIN operations, filtering, aggregations, and data analysis techniques essential for data-driven roles."
-              certLink="/Certifications/SQL.png"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <CertificationsCard
               imgPath={CipherSchools}
