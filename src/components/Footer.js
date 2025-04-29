@@ -25,7 +25,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/eshwarbattuwar"
+                href="https://github.com/tejanivasmanda"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:eshwarbattuwar@gmail.com"
+                href="mailto:mandatejanivas475@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -45,7 +45,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/eshwar-battuwar"
+                href="https://www.linkedin.com/in/teja-nivas-manda-038271257"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -55,7 +55,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="tel:+91 8143635201"
+                href="tel:+91 9392137198"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

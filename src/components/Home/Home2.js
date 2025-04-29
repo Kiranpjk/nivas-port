@@ -55,7 +55,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/eshwarbattuwar"
+                  href="https://github.com/tejanivasmanda"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -65,7 +65,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:eshwarbattuwar.com"
+                  href="mailto:mandatejanivas475@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -75,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/eshwar-battuwar"
+                  href="https://www.linkedin.com/in/teja-nivas-manda-038271257"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -85,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+91 8143635201"
+                  href="tel:+91 9392137198"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
