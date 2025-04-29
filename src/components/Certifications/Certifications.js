@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificationsCard from "./CerticationsCards";
 import Particle from "../Particle";
-import CipherSchools from "../../Assets/Certifications/CipherSchools.png";
-import PHP from "../../Assets/Certifications/PHP.png";
-import SQL from "../../Assets/Certifications/SQL.png";
+import CipherSchools from "../../Certifications/CipherSchools.png";
+import PHP from "../../Certifications/PHP.png";
+import DSA from "../../Certifications/DSA JPG.jpg";
 
 function Certifications() {
   return (
@@ -24,7 +24,7 @@ function Certifications() {
               isBlog={false}
               title="Pythhon for Beginners"
               description="Offered by SkillUP, this certification demonstrates proficiency in building dynamic web applications using python. Covered topics include forms, sessions, MySQL integration, and security practices."
-              certLink="/Certifications/PHP.png"
+              certLink={PHP}
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -34,9 +34,19 @@ function Certifications() {
             <CertificationsCard
               imgPath={CipherSchools}
               isBlog={false}
-              title="Data Structures & Algorithms using C++"
-              description="Certified by CipherSchools, this course focused on fundamental and advanced Data Structures and Algorithms in C++. Covered topics include arrays, linked lists, stacks, queues, trees, and complexity analysis."
-              certLink="/Certifications/CipherSchools.png"
+              title="Java and Data Structures & Algorithms "
+              description="Certified by CipherSchools, this course focused on fundamental and advanced Data Structures and Algorithms in Java. Covered topics include arrays, linked lists, stacks, queues, trees, and complexity analysis."
+              certLink={CipherSchools}
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificationsCard
+              imgPath={DSA}
+              isBlog={false}
+              title="Mastering Data Structures & Algorithms using C and C++"
+              description="Certified by Udmey, this course focused on fundamental and advanced Data Structures and Algorithms in C++. Covered topics include arrays, linked lists, stacks, queues, trees, and complexity analysis."
+              certLink={DSA}
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>

@@ -41,6 +41,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <h2 class="text-4xl font-bold text-gray-900">Teja's Portfolio</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -102,16 +103,16 @@ function NavBar() {
                 <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/eshwarbattuwar/Portfolio"
                 target="_blank"
-                className="fork-btn-inner"
+                // className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
-              </Button>
-            </Nav.Item>
+              {/* </Button>
+            </Nav.Item> */} 
           </Nav>
         </Navbar.Collapse>
       </Container>
